@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table border="1">
+    <tr>
+        <th>Mã công nhân</th>
+        <th>Tên công nhân</th>
+        <th>Chức năng</th>
+    </tr>
+    @foreach (var item in ViewBag.listCN)
+    {
+        <tr>
+            <td>@item.MaCongNhan</td>
+            <td>@item.TenCongNhan</td>
+            <td>
+                <a href="/CongNhan/deleteCN?MaCongNhan=@item.MaCongNhan">Delete</a>
+                <a href="/CongNhan/viewCN?MaCongNhan=@item.MaCongNhan">View</a>
+                <input type="hidden" class="MaCongNhan" value="@item.MaCongNhan" />
+            </td>
+        </tr>
+    }
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".btn-delete").click(function() {
+            var row = $(this).parents('tr');
+            row.remove();
+        });
+    });
+
+    /*$(document).ready(function () {
+        $(".btn-delete").click(function () {
+            var row = $(this).parents('tr');
+            var MaCongNhan = $(this).parent().find(".MaCongNhan").val();
+            $.ajax({
+                url: "/CongNhan/deleteCN",
+                method: "POST",
+                data: {MaCongNhan: MaCongNhan},
+                success: function(data) {
+                    row.remove();
+                }
+            });
+        });
+    });*/
+</script>

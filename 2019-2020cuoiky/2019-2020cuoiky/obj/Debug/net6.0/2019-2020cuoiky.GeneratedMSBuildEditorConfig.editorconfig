@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _2019_2020cuoiky
+build_property.RootNamespace = _2019_2020cuoiky
+build_property.ProjectDir = D:\THỰC HÀNH\HTTT framework\2019-2020cuoiky\2019-2020cuoiky\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\THỰC HÀNH\HTTT framework\2019-2020cuoiky\2019-2020cuoiky
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/CN_TC/LietKeTC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ05fVENcTGlldEtlVEMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/CN_TC/NhapSoTC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ05fVENcTmhhcFNvVEMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/CongNhan/ListCN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cTGlzdENOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/CongNhan/viewCN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05oYW5cdmlld0NOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/DiemCachLy/LietKeDCL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbUNhY2hMeVxMaWV0S2VEQ0wuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/DiemCachLy/NhapDCL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbUNhY2hMeVxOaGFwRENMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/THỰC HÀNH/HTTT framework/2019-2020cuoiky/2019-2020cuoiky/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c3fugpieog
