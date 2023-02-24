@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table border = "1">
+    <tr>
+        <th>Ngày giờ nhận</th>
+        <th>Ngày giờ trả</th>
+        <th>Số km</th>
+        <th>Nội dung</th>
+        <th>Chức năng</th>
+    </tr>
+    @foreach(var item in ViewBag.listBD){
+        <tr>
+            <td>@item.Ngaygionhan</td>
+            <td>@item.Ngaygiotra</td>
+            <td>@item.Sokm</td>
+            <td>@item.Noidung</td>
+            <td>
+                <a href="/BaoDuong/chitietbaoduong?Mabd=@item.Mabd">Xem</a>
+                @if (item.Ngaygiotra == "")
+                {
+                    <a href="/BaoDuong/suabaoduong?Mabd=@item.Mabd">Sửa</a>
+                }
+                else{
+                    <span>Sửa</span>
+                }
+            </td>
+        </tr>
+    }
+</table>

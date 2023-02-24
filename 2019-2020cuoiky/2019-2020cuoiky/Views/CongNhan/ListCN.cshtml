@@ -1,8 +1,6 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-}
 <table border="1">
     <tr>
         <th>Mã công nhân</th>
@@ -16,12 +14,13 @@
             <td>@item.TenCongNhan</td>
             <td>
                 <a href="/CongNhan/deleteCN?MaCongNhan=@item.MaCongNhan">Delete</a>
-                <a href="/CongNhan/viewCN?MaCongNhan=@item.MaCongNhan">View</a>
+                <a href="javascipt:void(0)" class="btn-view">View</a>
                 <input type="hidden" class="MaCongNhan" value="@item.MaCongNhan" />
             </td>
         </tr>
     }
 </table>
+<div class="viewCN"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
@@ -29,6 +28,19 @@
         $(".btn-delete").click(function() {
             var row = $(this).parents('tr');
             row.remove();
+        });
+    });
+
+    $(document).ready(function (){
+        $(".btn-view").click(function() {
+            var MaCongNhan = $(".MaCongNhan").val();
+            $.ajax({
+                url: "/CongNhan/ViewCN/" + MaCongNhan,
+                method: "POST",
+                success: function(data){
+                    $(".viewCN").html(data);
+                }
+            });
         });
     });
 

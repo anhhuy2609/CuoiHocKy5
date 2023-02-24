@@ -21,12 +21,12 @@ namespace _2019_2020cuoiky.Controllers
             return View("ListCN");
         }
 
+        [Route("/CongNhan/ViewCN/{MaCongNhan}")]
         public IActionResult viewCN(string MaCongNhan)
         {
             //StoreContext context = HttpContext.RequestServices.GetService(typeof(_2019_2020cuoiky.Models.StoreContext)) as StoreContext;
             StoreContext context = new StoreContext("server=127.0.0.1;user id=root;password=;port=3306;database=cachlycovid19;");
-            ViewBag.CongNhan = context.getCNInfo(MaCongNhan);
-            return View();
+            return View(ViewBag.CongNhan = context.getCNInfo(MaCongNhan));
         }
     }
 }
